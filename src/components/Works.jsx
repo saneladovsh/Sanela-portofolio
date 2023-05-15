@@ -4,6 +4,7 @@ import { styles } from "../style";
 import { github } from "../assets";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { SectionWrapper } from "../hoc";
 
 const ProjectCard = ({
   index,
@@ -69,7 +70,7 @@ const Works = () => {
           Short intro about my projects{" "}
         </motion.p> */}
       </div>
-      <div className="mt-20 flex flex-wrap gap-14 ml-20">
+      <div className="mt-20 flex flex-wrap gap-14 ">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
@@ -78,4 +79,5 @@ const Works = () => {
   );
 };
 
-export default Works;
+// export default Works;
+export default SectionWrapper(Works, "works");

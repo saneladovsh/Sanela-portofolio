@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { styles } from "../style";
 import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
-// import { SectionWrapper } from "../hoc";
+import { SectionWrapper } from "../hoc";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -40,7 +40,7 @@ const About = () => {
       </motion.div>
       <motion.p
         varients={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[22px] max-w-7xl leading-[30px] ml-20"
+        className="mt-4 text-secondary text-[22px] max-w-7xl leading-[30px] "
       >
         Hello! I am a law graduate turned tech enthusiast who loves to travel
         and share my experiences through social media. My passion for the tech
@@ -50,7 +50,7 @@ const About = () => {
       </motion.p>
       <motion.p
         varients={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[22px] max-w-7xl leading-[30px] ml-20"
+        className="mt-4 text-secondary text-[22px] max-w-7xl leading-[30px] "
       >
         {/* {" "} */}I began with HTML and CSS, and as I continued to learn, I
         became proficient in JavaScript and React. My creative coding journey
@@ -59,7 +59,7 @@ const About = () => {
       {/* <br />{" "} */}
       <motion.p
         varients={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[22px] max-w-7xl leading-[30px] ml-20"
+        className="mt-4 text-secondary text-[22px] max-w-7xl leading-[30px] "
       >
         I have a strong foundation in UX and UI design and use Figma to bring my
         ideas to life.My passion for photography has allowed me to develop
@@ -72,7 +72,7 @@ const About = () => {
       </motion.p>
       <motion.p
         varients={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[22px] max-w-7xl leading-[30px] ml-20"
+        className="mt-4 text-secondary text-[22px] max-w-7xl leading-[30px] "
       >
         I am constantly seeking ways to improve my skills and knowledge in other
         areas of tech and marketing, and I am excited to see where this journey
@@ -90,4 +90,5 @@ const About = () => {
   );
 };
 
-export default About;
+// export default About;
+export default SectionWrapper(About, "about");
