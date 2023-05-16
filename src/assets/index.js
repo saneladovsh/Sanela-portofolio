@@ -26,9 +26,13 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
+// import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import house from "./house.jpg";
+import skincare from "./skincare.jpg";
+import design from "./design.jpg";
+import spa from "./spa.jpg";
 
 export {
   logo,
@@ -56,7 +60,13 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
+  // carrent,
   jobit,
   tripguide,
+  house,
+  skincare,
+  design,
+  spa,
+  // house,
+  // skincare,
 };

@@ -19,10 +19,16 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
+  // carrent,
   jobit,
   tripguide,
   threejs,
+  // house,
+  // skincare,
+  house,
+  skincare,
+  design,
+  spa,
 } from "../assets";
 
 export const navLinks = [
@@ -152,9 +158,9 @@ const technologies = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Riverstone Wellness",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Riverstone Wellness Lodge is a luxurious wellness spa that offers a wide range of services. Their website serves as a presentation platform that showcases the various packages they offer. Visitors can easily book their spa experience.",
     tags: [
       {
         name: "react",
@@ -169,13 +175,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: spa,
+    source_code_link:
+      "https://github.com/saneladovsh/Riverstone-Wellness-Lodge",
   },
   {
-    name: "Job IT",
+    name: "The White Lotus",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The White Lotus, a skincare company that is dedicated to providing our customers with natural and effective solutions for their skincare needs. The website is a prototype that showcases our upcoming product line.",
     tags: [
       {
         name: "react",
@@ -190,13 +197,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: skincare,
+    source_code_link: "https://github.com/saneladovsh/The-White-Lotus",
   },
   {
-    name: "Trip Guide",
+    name: "Enchant3D",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Enchant3D is an upcoming website dedicated to showcasing captivating and immersive digital experiences powered by Three.js. Step into a world where imagination meets technology, and explore interactive environments.",
     tags: [
       {
         name: "nextjs",
@@ -211,30 +218,30 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: design,
+    source_code_link: "https://github.com/saneladovsh/Three.js-project",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, projects };
