@@ -21,6 +21,7 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
+    // const { target } = e;
     const { name, value } = e.target;
     setForm({ ...form, [name]: value });
   };
@@ -70,7 +71,7 @@ const Contact = () => {
             <span className="text-white font-medium mb-4">Your name</span>
             <input
               type="text"
-              name="name "
+              name="name"
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
@@ -95,7 +96,7 @@ const Contact = () => {
             <textarea
               type="text"
               rows="7"
-              name="message "
+              name="message"
               value={form.message}
               onChange={handleChange}
               placeholder="What do you want to say?"
