@@ -131,9 +131,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
+
     image: spa,
     source_code_link:
-      "https://github.com/saneladovsh/Riverstone-Wellness-Lodge",
+      "https://saneladovsh.github.io/Riverstone-Wellness-Lodge/",
   },
   {
     name: "The White Lotus",
@@ -154,7 +155,7 @@ const projects = [
       },
     ],
     image: skincare,
-    source_code_link: "https://github.com/saneladovsh/The-White-Lotus",
+    source_code_link: "https://saneladovsh.github.io/The-White-Lotus/",
   },
   {
     name: "Enchant3D",

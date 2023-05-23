@@ -37,8 +37,8 @@ const ProjectCard = ({
               flex justify-center items-center cursor-pointer"
             >
               <img
-                src={github}
-                alt={github}
+                // src={github}
+                // alt={github}
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>
